@@ -52,7 +52,7 @@ $("#underlineEvents, #navEvents").on("click", function () {
 
 //coworking
 $("#underlineCoworking, #navCoworking").on("click", function () {
-  $.scrollTo("#logoHomeCoworking",1000);
+  $.scrollTo("#coworkingBody",1000);
     $(".horizontalNav li a").removeClass("activeNav");
     $("#navCoworking").addClass("activeNav");
 });
@@ -130,6 +130,8 @@ $(".arrow-right,.arrow-down").on("click", function (){
                 $('.grid img').fadeOut(500);
             }
         });
+
+
 
 //reveal photos on click
 
