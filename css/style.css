@@ -1185,6 +1185,10 @@ svg {
   height:85vh;
  }
 
+#coworkingBody {
+  height:150vh;
+}
+
 #contactInfo h2{
   font-size: 1.5em;
  }
@@ -1218,12 +1222,18 @@ svg {
 
   #form, #contactInfo {
     width: 90%;
-    padding-top:5%;
+    /*padding-top:5%;*/
+    height:100vh;
+    padding-top:25%;
   }
 
   #contactInfo {
     text-align:right;
     padding-right:5%;
+  }
+
+  footer {
+    padding: 0 4%;
   }
 }
 
