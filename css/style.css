@@ -604,10 +604,10 @@ transition: all .05s ease;
 }
 
 #coworkingBody .coworkingAbout {
-  background-image:url("../images/2B.jpg");
+  background-image:url("../images/2B-grey.jpeg");
   background-size:cover;
   margin:10% auto;
-  filter:grayscale(100%);
+  /*filter:grayscale(100%);*/
   transition: all .3s ease;
   height: 70vh;
 
@@ -1176,7 +1176,7 @@ svg {
  }  
 
  .coworkingAbout p{
-  padding-top:140%;
+  padding-top:88%;
   clear:both;
  }
 
@@ -1187,6 +1187,14 @@ svg {
 
 #coworkingBody {
   height:150vh;
+}
+
+#coworkingBody .coworkingAbout p {
+  width: 90%;
+}
+
+#coworkingBody .coworkingAbout p span{
+  background-color: rgba(255,255,255,.8);
 }
 
 #contactInfo h2{
@@ -1222,9 +1230,8 @@ svg {
 
   #form, #contactInfo {
     width: 90%;
-    /*padding-top:5%;*/
-    height:100vh;
-    padding-top:25%;
+    padding-top:5%;
+
   }
 
   #contactInfo {
