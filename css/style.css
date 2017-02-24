@@ -1175,6 +1175,16 @@ svg {
   padding-top: 10%;
  }  
 
+ .coworkingAbout p{
+  padding-top:140%;
+  clear:both;
+ }
+
+#coworkingBody  .coworkingAbout {
+  background-position: center center;
+  height:85vh;
+ }
+
 #contactInfo h2{
   font-size: 1.5em;
  }
