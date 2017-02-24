@@ -1406,7 +1406,7 @@ svg {
   #coworkingAbout #aboutSectionEntry p {
   font-size:1.8em;
   width:90%;
-  padding-top: 20%;
+  padding-top: 15%;
  }  
 
 #contactInfo h2{
@@ -1431,9 +1431,9 @@ svg {
  }
 
   .logoHome {
-    width:35%;
+    width:50%;
     margin-top:-15%;
-    margin-left:-12%;
+    margin-left:-20%;
   }
 
   .grid {
@@ -1442,6 +1442,7 @@ svg {
 
   #form, #contactInfo {
     width: 90%;
+    padding-top:5%;
   }
 
   #contactInfo {
