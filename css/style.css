@@ -1394,14 +1394,19 @@ svg {
     background-size:300%;
   }
 
+  .layer {
+    height:840vh;
+  }
+
   svg {
     transform:scale(1.5);
     padding-top: 30%;
   }
 
   #coworkingAbout #aboutSectionEntry p {
-  font-size:1.5em;
+  font-size:1.8em;
   width:90%;
+  padding-top: 20%;
  }  
 
 #contactInfo h2{
