@@ -17,7 +17,7 @@ $(document).ready(function(){
 //** NAV **//
 
 //contact
-$("#homeContactLink, #navContact").on("click", function () {
+$("#homeContactLink, #navContact, #mobileNavContact").on("click", function () {
   $.scrollTo("#contactLogo", 1000);
   $(".horizontalNav li a").removeClass("activeNav");
   $("#navContact").addClass("activeNav");
@@ -33,8 +33,21 @@ $("#homeContactLink, #navContact").on("click", function () {
     });
 
 
+ //mobile nav
+ $('.js-toggle-menu').click(function(e){
+  e.preventDefault();
+  $('#mobileNav').slideToggle();
+  $(this).toggleClass('open');
+});
+
+
+$("#mobileNav a").on("click", function() {
+      $("#mobileNav").slideToggle();
+      $("#mobileNav").removeClass("open");
+});
+
 //events
-$("#underlineEvents, #navEvents").on("click", function () {
+$("#underlineEvents, #navEvents, #mobileNavEvents").on("click", function () {
   $.scrollTo("#eventsLogo",1000);
   $(".horizontalNav li a").removeClass("activeNav");
   $("#navEvents").addClass("activeNav");
@@ -51,7 +64,7 @@ $("#underlineEvents, #navEvents").on("click", function () {
 
 
 //coworking
-$("#underlineCoworking, #navCoworking").on("click", function () {
+$("#underlineCoworking, #navCoworking, #mobileNavCoworking").on("click", function () {
   $.scrollTo("#coworkingBody",1000);
     $(".horizontalNav li a").removeClass("activeNav");
     $("#navCoworking").addClass("activeNav");
@@ -68,7 +81,7 @@ $("#underlineCoworking, #navCoworking").on("click", function () {
 
 
 //about
-$("#navAbout").on("click", function () {
+$("#navAbout, #mobileNavAbout").on("click", function () {
   $.scrollTo("#containerCoworking",1000);
     $(".horizontalNav li a").removeClass("activeNav");
     $("#navAbout").addClass("activeNav");
