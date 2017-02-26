@@ -1446,19 +1446,19 @@ svg {
 
 #coworkingBody .coworkingAbout p {
   width: 95%;
-  font-size:1.4em;
+  font-size:1.5em;
   line-height:2em;
   padding-top:110%;
 }
 
 #coworkingBody .coworkingAbout p span{
   background-color: rgba(255,255,255,.9);
-  padding:1.2%;
+  padding:1.5%;
   border-bottom:2px dashed blue;
 }
 
 #eventsBody {
-  margin-top:30%;
+  margin-top:50%;
 }
 
 #contactInfo h2{
