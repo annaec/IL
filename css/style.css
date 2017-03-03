@@ -746,7 +746,7 @@ transition: all .05s ease;
 /*******************************************/
 
 
-#eventsEntryMobile {
+.eventsFlyerMobile {
   display:none;
   background-image:url("../images/rin1.jpg");
   background-size:cover;
@@ -754,6 +754,7 @@ transition: all .05s ease;
   height:50vh;
   width:90%;
   margin:0 auto;
+  clear:both;
 }
 
 
@@ -1641,7 +1642,7 @@ svg {
  }
 
 
-#eventsEntryMobile {
+.eventsFlyerMobile {
   display:block;
   margin-bottom:5%;
 }
