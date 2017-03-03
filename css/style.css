@@ -635,7 +635,9 @@ transition: all .05s ease;
   padding-top:0;
 }
 
-
+  #mobileCoworkingSectionEntry {
+    display:none;
+  }
 
 .aboutSections {
   float:left;
@@ -742,6 +744,18 @@ transition: all .05s ease;
 /******************************************
 /* EVENTS                
 /*******************************************/
+
+
+#eventsEntryMobile {
+  display:none;
+  background-image:url("../images/rin1.jpg");
+  background-size:cover;
+  background-position:center center;
+  height:50vh;
+  width:90%;
+  margin:0 auto;
+}
+
 
 #containerEvents h1{
   text-align: center;
@@ -1006,6 +1020,67 @@ footer h4{
 /******************************************
 /* MEDIA QUERIES               
 /*******************************************/
+
+@media(max-width:2400px) and (min-width:1901px) {
+
+   .coworkingAbout #aboutSectionEntry p {
+    font-size:3.5em;
+  }
+  
+   #coworkingBody p{
+    width:95%;
+    font-size:2.3em;
+    padding-top:39%
+  }
+  #coworkingBody  .coworkingAbout {
+    height:100vh
+  }
+}
+@media(max-width:1900px) and (min-width:1600px) {
+    .coworkingAbout #aboutSectionEntry p {
+    font-size:3.3em;
+  }
+
+   #coworkingBody p{
+    width:95%;
+    font-size:2em;
+    padding-top:44%
+  }
+
+    #coworkingBody  .coworkingAbout {
+    height:100vh
+  }
+}
+
+@media(max-width:1599px) and (min-width:1400px) {
+    .coworkingAbout #aboutSectionEntry p {
+    font-size:3.3em;
+  }
+
+   #coworkingBody p{
+    width:95%;
+    font-size:2em;
+    padding-top:50%
+  }
+}
+
+@media(max-width:1399px) and (min-width:1270px) {
+    .coworkingAbout #aboutSectionEntry p {
+    font-size:3em;
+  }
+
+     #coworkingBody p{
+    width:95%;
+    font-size:1.9em;
+    padding-top:53%
+  }
+}
+
+@media(max-width:1269px) and (min-width:1151px) {
+    .coworkingAbout #aboutSectionEntry p {
+    font-size:2.4em;
+  }
+}
 
 @media(max-width: 1150px) and (min-width: 1025px) {
   #coworkingBody .coworkingAbout {
@@ -1509,12 +1584,24 @@ svg {
   }
 
   .layer {
-    height:600vh;
+    height:700vh;
   }
 
   svg {
     transform:scale(1.5);
     padding-top: 30%;
+  }
+
+  #coworkingSectionEntry {
+    display:none;
+  }
+
+  #mobileCoworkingSectionEntry {
+    display:block;
+  }
+
+  #mobileCoworkingSectionEntry #mobileCoworking span{
+    border-bottom:none;
   }
 
   .coworkingAbout #aboutSectionEntry p {
@@ -1544,14 +1631,20 @@ svg {
   border-bottom:2px dashed blue;
 }
 
+
 #eventsBody {
-  margin-top:90%;
+  margin-top:140%;
 }
 
 #contactInfo h2{
   font-size: 1.5em;
  }
 
+
+#eventsEntryMobile {
+  display:block;
+  margin-bottom:5%;
+}
  #containerEvents h2 {
   font-size:.7em;
  }
