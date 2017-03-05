@@ -1278,6 +1278,10 @@ svg {
 
 @media(max-width: 704px) and (min-width: 625px) {
 
+  .layer {
+    height:650vh;
+  }
+
     #mobileCoworkingSectionEntryTwo {
     display:none;
   }
@@ -1349,6 +1353,10 @@ svg {
 }
 
 @media(max-width: 624px) and (min-width: 557px) {
+
+    .layer {
+    height:630vh;
+  }
 
     #mobileCoworkingSectionEntryTwo {
     display:none;
