@@ -488,13 +488,20 @@ svg {
 
 }
 
-#game{
+#game, #electroninks{
   width:100% !important;
   filter: grayscale();
   transition: all .3s ease;
 }
 
-#game:hover {
+#electroninks {
+  width:175% !important;
+  filter:none;
+  left:10%;
+  margin-left:-17%;
+}
+
+#electroninks:hover, #game:hover {
   filter: none;
   transform:scale(1.08);
   transition: all .3s ease;
