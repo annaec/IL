@@ -626,6 +626,17 @@ transition: all .05s ease;
   padding-top:0;
 }
 
+#app {
+  color:white;
+  background-color:rgba(0,0,255,.6);
+  padding: .5%;
+}
+
+#app:hover {
+  font-style:italic;
+}
+
+
   #mobileCoworkingSectionEntry, #mobileCoworkingSectionEntryTwo {
     display:none;
   }
