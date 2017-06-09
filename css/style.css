@@ -625,7 +625,7 @@ label input {
   height: 0; 
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
-  border-left: 20px solid red;
+  border-left: 20px solid blue;
   float: left;
   margin-right: 4%;
   transform: rotateZ(90deg);
@@ -636,12 +636,13 @@ label input {
   transform:scale(1.1) rotate(45deg);
 }
 
+
 .arrow-right {
   width: 0; 
   height: 0; 
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
-  border-left: 20px solid red;
+  border-left: 20px solid blue;
   float: left;
   margin-right: 4%;
   transition-duration: .3s;
@@ -724,15 +725,13 @@ label input {
   border-bottom: none;
   font-family: Helvetica;
   letter-spacing: .2em;
-  color: red;
+  color: blue;
   font-size: 1em;
 
 }
 
 #nameDirectory p a:hover {
   text-transform: uppercase;
-  background: white;
-  color:red;
 }
 
 

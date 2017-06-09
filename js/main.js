@@ -156,10 +156,7 @@ $("#alphaDirectory a").on("click", function (){
   $(".arrow-down").addClass("arrow-right").removeClass("arrow-down");
   $(bioLink).children("p").slideDown(300);
   $(bioLink).children(".arrow-right").addClass("arrow-down").removeClass("arrow-right");
-  // $(bioLink).siblings().children("p").slideUp(300);
-  // $(bioLink).siblings().children(".arrow-down").addClass("arrow-right").removeClass("arrow-down");
-
-    //make all other paragraphs slideUp
+  
 
   });
 
