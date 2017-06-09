@@ -3,7 +3,7 @@ $(document).ready(function(){
 //** HOME **//
 
 $(window).bind("load", function() {
-
+  if($('body').is('.homeSvgTrace')){
   setTimeout(function(){
     $.scrollTo("#containerCoworking", 1000);
     $("svg").fadeOut(1000);
@@ -12,7 +12,7 @@ $(window).bind("load", function() {
   setTimeout(function(){
     $("svg").fadeIn(1000);
   }, 2500);
-
+}
 });
 
 
@@ -22,11 +22,19 @@ $(window).bind("load", function() {
 //horizontal nav appears on scroll
  $(window).scroll(function(){                          
             if ($(this).scrollTop() > 500) {
-                $('.horizontalNav').fadeIn(500);
+                $('.horizontalNav').not('[id="eventsNav"]').fadeIn(500);
             } else {
-                $('.horizontalNav').fadeOut(500);
+                $('.horizontalNav').not('[id="eventsNav"]').fadeOut(500);
             }
         });
+
+//avoid scroll on page load from events nav
+  if($('body').is('.eventsBody')){
+    $("#navContact").on("click", function (e){
+      
+    });
+
+  };
 
 
 //drop down hidden nav on menu icon click

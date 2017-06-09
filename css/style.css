@@ -418,6 +418,10 @@ svg {
   padding: .5% 3% 0 0;
 }
 
+#eventsNav {
+  display:inline-block;
+}
+
 .horizontalNav li {
   padding-top:0;
   margin-top:1%;
@@ -610,14 +614,18 @@ transition: all .05s ease;
 /******************************************
 /* EVENTS                
 /*******************************************/
+#flyerIcon {
+  width:17%;
+    transition: all .3s ease;
+}
 
+#flyerIcon:hover {
+  transform:scale(1.1) rotate(15deg);
+
+}
 
 .eventsFlyerMobile {
   display:none;
-/*  background-image:url("../images/rin1.jpg");
-  background-size:cover;
-  background-position:center center;*/
-/*   height:35vh; */
   width:90%;
   margin:0 auto;
   clear:both;
@@ -870,7 +878,7 @@ footer h4{
   }
 
   .eventListing {
-    height:440px;
+    height:520px;
   }
 
   #form input {
@@ -912,7 +920,7 @@ footer h4{
   }
 
   .eventListing {
-    height:440px;
+    height:520px;
   }
 
     #form input {
@@ -1039,7 +1047,7 @@ footer h4{
 @media(max-width:1299px) and (min-width:1151px) {
 
 
- .horizontalNav li {
+.horizontalNav li {
     font-size: 1.4em;
   }
 
@@ -1047,7 +1055,7 @@ footer h4{
     height:100vh
   }
 
-    .coworkingAbout #aboutSectionEntry p {
+.coworkingAbout #aboutSectionEntry p {
     font-size:2.6em;
     line-height:1.68em;
   }
@@ -1056,13 +1064,6 @@ footer h4{
      font-size:1.6em;
     width:95%;
   }
-
- /* #coworkingBody p {
-    margin-top:55vh;
-  }
-*/
-
-
 
     .containerEvents h2 {
     font-size:.89em;
@@ -1808,10 +1809,6 @@ svg {
     border-bottom:5px dashed blue;
   }
 
-#eventsBody {
-  margin-top:140%;
-}
-
 #contactInfo h2{
   font-size: 1.5em;
  }
@@ -1935,10 +1932,6 @@ svg {
     padding:24% 0;
     border-bottom:5px dashed blue;
   }
-
-#eventsBody {
-  margin-top:140%;
-}
 
 #contactInfo h2{
   font-size: 1.5em;
@@ -2072,9 +2065,6 @@ svg {
     border-bottom:5px dashed blue;
   }
 
-#eventsBody {
-  margin-top:140%;
-}
 
 #contactInfo h2{
   font-size: 1.5em;
@@ -2205,10 +2195,6 @@ svg {
     border-bottom:5px dashed blue;
   }
 
-#eventsBody {
-  margin-top:140%;
-}
-
 #contactInfo h2{
   font-size: 1.5em;
  }
@@ -2276,10 +2262,6 @@ svg {
     height: 75vh;
   }
 
-  #eventsBody {
-    margin-top:130%;
-  }
-
 #coworkingBody .coworkingAbout p{
     padding-top:75%;
   }
@@ -2308,9 +2290,6 @@ svg {
       margin-top:-5%;
     }
 
-    #eventsBody {
-      margin-top:50%;
-    }
 
     .eventListing {
       height:230px;
@@ -2341,9 +2320,6 @@ svg {
       padding-top:60%;
     }
 
-    #eventsBody {
-      margin-top:30%;
-    }
 
     .eventListing {
       height:250px;
@@ -2369,9 +2345,7 @@ svg {
       padding-top:60%;
     }
 
-    #eventsBody {
-      margin-top:30%;
-    }
+   
 
     .eventListing {
       height:250px;
