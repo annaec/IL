@@ -22,16 +22,16 @@ $(window).bind("load", function() {
 //horizontal nav appears on scroll
  $(window).scroll(function(){                          
             if ($(this).scrollTop() > 500) {
-                $('.horizontalNav').not('[id="eventsNav"]').fadeIn(500);
+                $('.horizontalNav').not('[id="externalNav"]').fadeIn(500);
             } else {
-                $('.horizontalNav').not('[id="eventsNav"]').fadeOut(500);
+                $('.horizontalNav').not('[id="externalNav"]').fadeOut(500);
             }
         });
 
 //avoid scroll on page load from events nav
   if($('body').is('.eventsBody')){
     $("#navContact").on("click", function (e){
-      
+
     });
 
   };
@@ -129,6 +129,12 @@ $("#navAbout, #mobileNavAbout").on("click", function () {
 //** PAGES **//
 
 
+
+
+//** COMMUNITY.HTML **/
+
+
+
 //arrow drop-down 
 $(".arrow-right,.arrow-down").on("click", function (){
   $(this).toggleClass("arrow-down").toggleClass("arrow-right");
@@ -141,19 +147,7 @@ $(".arrow-right,.arrow-down").on("click", function (){
   }
 });
 
-//** COWORKING SECTION **//
 
-
-
-//disable zoom on coworking section background image 
-// $('#coworkingBody .coworkingAbout').bind('touchend', function(e) {
-//   e.preventDefault();
-// })
-
-
-
-
-//** COMMUNITY.HTML **/
 
 //name directory select
 $("#alphaDirectory a").on("click", function (){
@@ -177,6 +171,7 @@ $("#nameDirectory a").on("click",function () {
 $("#nameColumn a").on("click", function (){
   $(this).children("p").slideUp(300);
 });
+
 
 //CONTACT FORM TO GOOGLE SHEET
  $('#form').one('submit',function(){
