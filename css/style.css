@@ -616,9 +616,10 @@ label input {
   font-size: 2em;
   font-family: "Roboto Mono";
   border: 2px solid black;
-  width:80%;
+  width:90%;
   display:block;
   margin: 0 auto;
+
 }
 .arrow-down {
     width: 0; 
@@ -690,7 +691,7 @@ label input {
 
 .nameColumn {
 
-  margin: 10% 5% 10% 0%;
+  margin: 10% 0% 10% 0%;
 }
 
 #nameDirectory h2 {
