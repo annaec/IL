@@ -133,7 +133,19 @@ $("#navAbout, #mobileNavAbout").on("click", function () {
 
 //** COMMUNITY.HTML **/
 
+//discipline sorting
+$("#justice").on("click", function (){
+  $.scrollTo("#nameDirectory", 600);
+  $("#nameDirectory div").fadeOut(100);
+  $("#nameDirectory .justice").fadeIn();
+});
 
+//all disciplines fade in on back to top click
+$(".top").on("click",function(){
+   $.scrollTo("#categories", 600);
+  $("#nameDirectory div").fadeIn();
+  $(".arrow-down").addClass("arrow-right").removeClass("arrow-down");
+});
 
 //arrow drop-down 
 $(".arrow-right,.arrow-down").on("click", function (){

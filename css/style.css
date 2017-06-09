@@ -619,8 +619,41 @@ label input {
   width:90%;
   display:block;
   margin: 0 auto;
+    transition: all .2s ease;
+    background-color:rgba(255,255,255,0);
 
 }
+
+label input:hover {
+     box-shadow: 15px 14px 0 0 rgba(0,0,255,.6);
+     background-color:white;
+}
+
+#categories {
+  width: 95%;
+  margin: 0 auto;
+
+}
+
+#categories div {
+  width: 20%;
+  height: 200px;
+  margin: 5%;
+  border-top: 5px dashed blue;
+  border-left: 5px dashed blue;
+  transition: all .2s ease;
+  display:inline-block;
+  float:left;
+  font-size:2.5em;
+  padding:3%;
+  font-family:"helvetica";
+  letter-spacing: .15em;
+}
+
+#categories div:hover {
+     box-shadow: 15px 14px 0 0 rgba(0,0,255,.6);
+}
+
 .arrow-down {
     width: 0; 
   height: 0; 
